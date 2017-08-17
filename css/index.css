@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+.frame{
+    width: 400px;
+    height: 480px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+.frame .bigimg{
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    opacity:1;
+    overflow: hidden;
+}
+/*.frame .bigimg .img{
+    height:100%;
+    display: none;
+}*/
+/*#img1{
+    display: block;
+}*/
+.imglibox{
+    height:70px;
+    position: relative;
+    z-index: 2;
+}
+div ul li{
+    list-style: none;
+}
+div ul li .imgli{
+    display: block;
+    width:50px;
+    height:50px;
+
+}
+div ul li{
+    float: left;
+    margin:14px;
+}
+.banner{
+    width:2000px;
+    height:400px;
+    position: relative;
+
+    z-index: 1;
+    overflow: hidden;
+
+}
+.banner1{
+    width:400px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-image: url("../image/a.jpg");
+}
+.banner2{
+    width:400px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-image: url("../image/b.jpg");
+}
+.banner3{
+    width:400px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-image: url("../image/c.jpg");
+}
+.banner4{
+    width:400px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-image: url("../image/d.jpg");
+}
+.banner5{
+    width:400px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-image: url("../image/e.jpg");
+}
+.box{
+    width: 175px;
+    height:220px;
+    opacity: 0.6;
+    background-color: #FEDE4F;
+    display: none;
+    cursor: move;
+    position: absolute;
+}
+.bigimg1{
+    width: 600px;
+    height: 749px;
+    /*background-image: url('../image/a.jpg');*/
+    float: left;
+    display: none;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.bigimgs{
+    width:1000px;
+    height:1500px;
+    display: none;
+    position: absolute;
+    float: left;
+    left: 0;
+    top:0;
+
+}
